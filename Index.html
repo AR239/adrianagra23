@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 13</title>
+    <link rel="icon" href="img/ico/iconito.ico" type="image/ico" sizes="16x16">
+    <meta name="author" content="Maria Jose">
+    <meta name="description" content="Portafolio personal de ejemplo, aun no terminado">
+    <meta name="keywords" content="Portfolio, Blog, Experiencias, Historias, viajes, educación, salud mental">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+    
+    <!-- COMENTARIO-->
+    <!--ESTO ES UN COMENTARIO, NO SE VERÁ EN EL NAVEGADOR-->
+
+    <!--HTML tiene varios elementos semánticos que definen las diferentes partes de una página web:-->
+    <!--Elementos semánticos = elementos con significado -->
+    <!--Un elemento semántico describe claramente su significado tanto para el navegador como para el desarrollador-->
+    
+    
+    <header id="diseño">
+        <p>El elemento <h1>< header ></h1> representa un contenedor de contenido introductorio o un conjunto de enlaces de navegación</p>
+        <p>Normalmente contiene</p>
+        
+        <ul>
+            <li>uno o más elementos de encabezado (< h1 > - < h6 >)</li>
+            <li>logo o icono</li>
+            <li>información de autoría</li>
+        </ul>
+
+        <p>Nota: Puede tener varios elementos < header > en un documento HTML. Sin embargo, < header > no se puede colocar dentro de un < footer >, < address > u otro elemento < header ></p>
+        <a href="https://www.w3schools.com/tags/tag_header.asp">Ver etiqueta</a>
+    </header>
+
+    <hr>
+
+    <nav id="nav">
+        <p>El elemento <h1> < nav > </h1> define un conjunto de enlaces de navegación.</p>
+        <p>Tenga en cuenta que NO todos los enlaces de un documento deben estar dentro de un elemento < nav >. El elemento < nav > está destinado solo para el bloque principal de enlaces de navegación.</p>
+        <p>Los navegadores, como los lectores de pantalla para usuarios discapacitados, pueden utilizar este elemento para determinar si se debe omitir la presentación inicial de este contenido.</p>
+        <a href="https://www.w3schools.com/tags/tag_nav.asp">Ejemplo</a>
+    </nav>
+
+    <hr>
+    <main id="main">
+        <p>La etiqueta <h1>< main ></h1> especifica el contenido principal de un documento.</p>
+        <p>El contenido dentro del elemento <main> debe ser exclusivo del documento. No debe contener ningún contenido que se repita en documentos como barras laterales, enlaces de navegación, información de derechos de autor, logotipos del sitio y formularios de búsqueda.</p>
+        <p>Nota: No debe haber más de un elemento <main> en un documento. El elemento < main > NO debe ser descendiente de un elemento < article >, < aside >, < footer >, < header > o < nav ></p>
+        <a href="https://www.w3schools.com/tags/tag_main.asp">Ejemplo</a>
+        <hr>
+
+        <section id="seccion">
+            <p>El elemento <h1>< section ></h1> define una sección en un documento. Una sección es una agrupación temática de contenido, normalmente con un encabezado. </p>
+            <h4>Titulo</h4>
+            <p>Contenido</p>
+            <ul>
+                <li>Capítulos</li>
+                <li>Introducción</li>
+                <li>Artículos de noticias</li>
+                <li>Información de contacto</li>
+            </ul>
+            <a href="https://www.w3schools.com/tags/tag_section.asp">Ver etiqueta</a>
+        </section>
+        <hr>
+
+        <article id="articulo">
+            <p>El elemento <h1>< article ></h1> especifica contenido autónomo e independiente.</p>
+            <p>Un artículo debe tener sentido por sí solo y debe ser posible distribuirlo independientemente del resto del sitio web.
+            </p>
+            <p>Ejemplos de dónde se puede utilizar el elemento < article >:</p>
+            <ul>
+                <li>Publicaciones del foro</li>
+                <li>Publicaciones de blog</li>
+                <li>Comentarios del usuario</li>
+                <li>Tarjetas de productos</li>
+                <li>Artículos del periódico </li>
+            </ul>
+            <a href="https://www.w3schools.com/tags/tag_article.asp">Ver etiqueta</a>
+        </article>
+        <hr>
+
+        <aside id="aside">
+            <p>El elemento <h1>< aside ></h1> define algún contenido además del contenido en el que está colocado (como una barra lateral).</p>
+            <p>El contenido < aside > debe estar relacionado indirectamente con el contenido circundante. </p>
+            <a href="https://www.w3schools.com/tags/tag_aside.asp">Ver etiqueta</a>
+        </aside>
+        <hr>
+
+        <p> La etiqueta <h1>< figure></h1> especifica contenido autónomo, como ilustraciones, diagramas, fotos, listas de códigos, etc.</p>
+        <p>La etiqueta < figcaption> define un título para un elemento < figure >. El elemento < figcaption > se puede colocar como el primer o último hijo de un elemento < figure > </p>
+        
+        <figure id="figura">
+            <img src="https://www.w3schools.com/tags/pic_trulli.jpg" alt="Trulli" style="width:100%">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+        </figure>
+
+        <a href="https://www.w3schools.com/tags/tag_figure.asp">Ver etiqueta</a>
+    </main>
+    <hr>
+
+    <p>El elemento <h1>< details ></h1> Especifique los detalles que el usuario puede abrir y cerrar a pedido: </p>
+    <details>
+        <summary>Se puede poner cualquier tipo de contenido dentro de la etiqueta</summary>
+        <p>La etiqueta < details> se usa a menudo para crear un widget interactivo que el usuario puede abrir y cerrar. De forma predeterminada, el widget está cerrado. Cuando está abierto, se expande y muestra el contenido que contiene.</p>
+    </details>
+
+    <a href="https://www.w3schools.com/tags/tag_details.asp">Ver etiqueta</a>
+    <hr>
+    <footer id="footer">
+        <p>El elemento <h1>< footer></h1> define un pie de página para un documento o sección.</p>
+        <p>Un elemento < footer> normalmente contiene:</p>
+        <ul>
+            <li>información de autoría</li>
+            <li>informacion registrada</li>
+            <li>Información del contacto</li>
+            <li>mapa del sitio</li>
+            <li>volver a los enlaces superiores </li>
+            <li>documentos relacionados</li>
+            <li>Puede tener varios elementos <footer> en un documento. </li>
+        </ul>
+        <a href="https://www.w3schools.com/tags/tag_footer.asp">Ver etiqueta</a>
+    </footer>
+
+    <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">Ver elementos semánticos estructurales</a>
+
+    <hr>
+
+    <h1>Formato de texto HTML </h1>
+    <p>Los elementos de formato se diseñaron para mostrar tipos especiales de texto: </p>
+    <ul>
+        <li> < b> - Texto en <b>negrita</b></li>
+        <li> < strong> - <strong>Texto importante</strong></li>
+        <li> < i> <i>Texto en cursiva</i></li>
+        <li> < em> <em>Texto enfatizado</em></li>
+        <li> < mark > <mark>Texto marcado</mark></li>
+        <li> < small > <small>Texto pequeño</small> </li>
+        <li> < del > <del>Texto eliminado</del></li>
+        <li> < ins>  <ins>Texto insertado</ins></li>
+        <li> <  sub > Texto de <sub>subíndice</sub></li>
+        <li> < sup  > Texto de <sup>superíndice</sup></li>
+    </ul>
+
+    <a href="https://www.w3schools.com/html/html_formatting.asp">Ver más</a>
+    <a href="https://pro-gramer.000webhostapp.com/" >Saber más</a>
+
+    <hr>
+    <h1>Etiqueta de Enlaces</h1>
+
+    <p>El elemento < a > define un hiperlink</p>
+    <p>El atributo más importante de esta etiqueta es <q>href</q> el cual indica el URL de destino al hacer clic</p>
+    <p>Existen dos tipos de URL</p>
+    <dl>
+        <dt>URL Absoluto</dt>
+        <dd>Son direcciones web, es decir links de páginas en internet: https://www.w3.org/</dd>
+        <dd><a href="https://www.w3.org/">Ir a página web</a></dd>
+
+        <dt>URL Relativo</dt>
+        <dd>Son enlaces a un documento o elemento dentro del mismo sitio: /css/default.css</dd>
+        <dd> <a href="entrega7.html">Abrir documento local</a></dd>
+    </dl>
+
+    <p> Este elemento usa el atributo <p>target</p> <br>
+    De forma predeterminada, la página vinculada se mostrará en la ventana del navegador actual. Para cambiar esto, debe especificar otro destino para el enlace. 
+    <br>
+    El atributo de destino especifica dónde abrir el documento vinculado.
+    <br>
+    El atributo de destino puede tener uno de los siguientes valores:
+    </p>
+
+    <ul>
+        <li>_self: predeterminado. Abre el documento en la misma ventana / pestaña en la que se hizo clic <a href="https://www.w3.org/" target="_self">Ver</a></li>
+        <li>_blank: abre el documento en una nueva ventana o pestaña <a href="https://www.w3.org/" target="_blank">Ver</a></li>
+        <li>_parent: abre el documento en el marco principal <a href="https://www.w3.org/" target="_parent">Ver</a></li>
+        <li>_top: abre el documento en todo el cuerpo de la ventana <a href="https://www.w3.org/" target="_top">Ver</a></li>
+    </ul>
+
+    <p>Se pueden usar imágenes como link:</p>
+    
+    <a href="https://www.w3.org/" target="_blank">
+        <img src="https://www.w3schools.com/tags/pic_trulli.jpg" alt="HTML tutorial" style="width:100px;height:auto;">
+    </a>
+
+    <p>Se pueden agregar titulos a los links</p>
+    <a href="https://www.w3schools.com/html/" title="Ir a la página de w3schools">Ver más</a>
+
+
+    <p>Se puede abrir la aplicación de correo</p>
+    <a href="mailto:alguien@ejemplo.com">Enviar un email</a>
+
+
+    <p>Para conectar con secciones del mismo documento</p>
+    <ul>
+        <li><a href="#diseño">Header</a></li>
+        <li><a href="#nav">Navegación</a></li>
+        <li><a href="#main">Main</a></li>
+        <li><a href="#seccion">Section</a></li>
+        <li><a href="#articulo">Artículo</a></li>
+        <li><a href="#figura">Figura</a></li>
+    </ul>
+
+    <p>Para enlazar con secciones de otro documento html</p>
+    <a href="entrega7.html#elementos">Ir a tienda</a>
+
+
+    <p>Para descargar contenido</p>
+    <a href="img/fondos/david-monje-s8i0-0RRK0E-unsplash.jpg" download="imagendejemplo">
+        <img src="https://www.w3schools.com/tags/pic_trulli.jpg" alt="ejemplo" width="150" height="auto">
+    </a>
+    <br>
+    <a href="https://www.w3schools.com/html/html_links.asp">Ver más de etiqueta de enlace</a>
+    <hr>
+
+    <H1>Elemento boton</H1>
+    <p>La etiqueta < button > define un botón en el que se puede hacer clic.
+    <br>
+    Dentro de un elemento < button> puede poner texto (y etiquetas como < i>, < b>, < strong>, < br>, < img>, etc.). ¡Eso no es posible con un botón creado con el elemento < input >!
+    <br>
+    Consejo: especifique siempre el atributo de tipo para un elemento < button>, para indicar a los navegadores qué tipo de botón es.
+    </p>
+    <button type="button">Ver más</button>
+
+    <p>Botón como link</p>
+
+    <button onclick="document.location='https://www.w3schools.com/tags/tag_button.asp'" type="button">Ver etiqueta boton</button>
+
+
+    
+    
+    
+
+</body>
+</html>
